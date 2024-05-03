@@ -37,12 +37,12 @@
 				<section>
 
 					<head>
-						<title>Relatório PowerBI</title>
+						<title>Relatório Power BI</title>
 					</head>
 
 					<body>
 
-						<h1>Relatório do E-commerce TUDO AQUI</h1>
+						<h1>Relatório do E-commerce da Olist</h1>
 						<iframe title="dashboard" width="1024" height="635" src="https://app.powerbi.com/view?r=eyJrIjoiNDFhOTNmZTctMDVhYy00ZDYyLWI1ZTMtYTE0YzIyMmFhNmNmIiwidCI6ImRhNmQ0OWRhLTU1N2MtNDQxNy04YWVmLTg4ZTA1MDcxOTE0MyJ9" frameborder="0" allowFullScreen="true"></iframe>
 						<br />
 						<hr class="major" />
@@ -50,47 +50,89 @@
 						<p>Link para o Painel Online: <a
 							href="https://app.powerbi.com/view?r=eyJrIjoiNDFhOTNmZTctMDVhYy00ZDYyLWI1ZTMtYTE0YzIyMmFhNmNmIiwidCI6ImRhNmQ0OWRhLTU1N2MtNDQxNy04YWVmLTg4ZTA1MDcxOTE0MyJ9"
 							target="_blank">Relatório</a></p>
+						
+						<img src="../images/powerbi-project/banner-olist.png" alt="" title="banner" width="100%" height="250">
 
+						<hr class="major" />
 
 						<header class="major">
 							<h2>1. Visão Geral</h2>
 						</header>
 
-						<p>O objetivo principal deste projeto é criar e publicar um painel interativo do Power BI utilizando o conjunto de dados de 
-							um e-commerce ficticio chamado <b>TUDO AQUI</b>. Esse conjunto de dados, fornecido baixado pelo Kaggle, foi utilizado 
-							durante o curso Introdução ao Power BI ministrado na Comunidade DS.</p>
+						<p>A Olist uma empresa brasileira que opera uma plataforma de comércio eletrônico que conecta pequenas e médias empresas a grandes marketplaces. 
+							Eles ajudam essas empresas a expandir sua presença online e aumentar suas vendas, fornecendo uma solução integrada que simplifica o processo 
+							de vendas em múltiplos canais. A Olist também oferece serviços de logística e suporte para ajudar os vendedores a gerenciar seus negócios de 
+							forma eficiente.</p>
 
 
 						<header class="major">
 							<h2>2. Problema de Negócio</h2>
 						</header>
 
-						<p>Você foi contratado pela empresa <b>TUDO AQUI</b> como Analista de Dados Júnior.</p>
-
-						<p>A <b>TUDO AQUI</b> é uma empresa brasileira de e-commerce que começou a crescer, porém até então, a maioria das suas 
-							decisões é tomada pelo time diretivo de forma intuitiva, sem muita análise e precisão. Por não analisar indicadores, a 
-							empresa já tomou algumas decisões erradas que levaram a tomar prejuízos.</p>
+						<p>A necessidade de desenvolver um dashboard para a Olist surgiu da dificuldade enfrentada pelo time de negócios na obtenção de insights para a 
+							tomada de decisões estratégicas. A falta de uma visão acessível sobre diversos aspectos operacionais, como características dos produtos 
+							vendidos, métodos de pagamento, evolução dos pedidos e avaliações dos clientes, estava prejudicando a capacidade da empresa de entender 
+							o funcionamento atual do negócio e identificar oportunidades de melhoria.</p>
 							
-						<p>Para que a empresa continue a crescer de forma saudável, o CEO que se sente “cego” em relação aos dados da empresa, decidiu 
-							implementar <b>Business Intelligence</b> com o intuito de ter indicadores que o ajude a tomar decisões melhores. Devido ao 
-							prejuízos identificados, foi estabelecido pelo CEO que a empresa não se apegue mais a suposições, mas que a partir de 
-							agora adote a metodologia <b>Data Driven</b> na tomada de decisões estratégicas.</p>
+						<p>Além disso, havia a necessidade de acompanhar de perto as métricas de crescimento, como o faturamento, análise de cohort e análise de pareto, 
+							para orientar o planejamento estratégico e a alocação de recursos de forma mais eficaz. Portanto, a criação do dashboard visava centralizar 
+							e visualizar essas informações de forma clara e acessível, capacitando o time de negócios a tomar decisões informadas e ágeis para 
+							impulsionar o crescimento e o sucesso da empresa.</p>
 							
-						<p>Visando custo e benefício, a ferramenta escolhida pelo corpo diretivo foi o <b>Power BI</b>.</p>
+						<p>Diante desses desafios, o desenvolvimento do dashboard se tornou uma prioridade estratégica para a Olist. Ao consolidar dados relevantes e 
+							fornecer insights acionáveis em uma única plataforma, o dashboard permitiria uma visão holística do negócio, capacitando a equipe a 
+							identificar tendências, otimizar processos e responder de forma proativa às demandas do mercado.</p>
 							
-						<p>O CEO da empresa decidiu seguir com uma frente de análise por vez, e irá solicitar a você que agora é o analista de dados 
-							de novas análises sempre que uma frente for finalizada e entregue. O desenvolvimento e as entregas deverão ser inicialmente 
-							feitas no <b>Power BI Desktop</b>. As frentes analisadas serão respectivamente: Produto, Pagamentos, Pedidos, Avaliações, 
-							Vendedores e Vendas.</p>
 
 						
 						<header class="major">
 							<h2>3. Solução</h2>
 						</header>
 
-						<p>Como resultado foi desenvolvido um dashboard:</p>
-						<img src="../images/powerbi-project/dash.gif" alt=""/>
+						<p>A solução apresentada ao time de negócios da Olist é um relatório no Power BI que fornece insights valiosos em várias áreas-chave do negócio. 
+							O relatório desenvolvido possui 6 dashboards, cada um responsável por uma das visões requisitadas pela equipe de negócios.</p>
+						
+						<ol>
+							<li><strong>Visão Produto</strong>: Este relatório fornece insights sobre os produtos sendo vendidos. Nessa visão, conseguimos ter visualizar 
+								as categorias dos produtos sendo negociados e quantidade vendida dentro de cada categoria. Também é possível verificar a quantidade total 
+								de fotos usada pelos anúncios de cada categoria.</li></br>
 
+							<li><strong>Visão Pagamentos</strong>: Aqui, são apresentados insights sobre os tipos de pagamento utilizados pelos clientes. Isso inclui análises 
+								sobre os métodos de pagamento mais comuns, valor médio da transação por método de pagamento, além de informações sobre os status do pedido. 
+								Com essas informações, a Olist pode otimizar sua estratégia de pagamento para melhor atender às preferências dos clientes e aumentar a 
+								conversão de vendas.</li></br>
+
+							<li><strong>Visão Pedido</strong>: Este dashboard permite o acompanhamento da evolução dos pedidos feitos e comparação com as metas estabelecidas. 
+								Ele oferece análises detalhadas sobre o volume de pedidos, taxa de crescimento do volume de vendas em comparação a meta anual e mensal 
+								e muito mais.</li></br>
+
+							<li><strong>Visão Avaliações</strong>: Aqui, são analisados os fatores que influenciam a avaliação dos clientes sobre os produtos e serviços 
+								da Olist. Isso inclui análises sobre o tempo de entrega, criação de clusters para identificar estados que avaliam de forma semelhante, 
+								entre outros. Com esses insights, a empresa pode identificar áreas de melhoria e implementar medidas para garantir uma experiência 
+								positiva para os clientes.</li></br>
+
+							<li><strong>Visão Vendedores</strong>: Neste dashboard, são apresentadas características dos vendedores da base, como localização, valor vendido, 
+								desempenho de vendas ao longo do tempo, entre outros. Isso permite que a Olist avalie o desempenho de seus vendedores, identifique os mais 
+								bem-sucedidos e forneça suporte adicional aos que estão enfrentando desafios.</li></br>
+
+							<li><strong>Visão Vendas</strong>: Por fim, este relatório oferece uma visão abrangente da evolução do faturamento da empresa, incluindo análises 
+								de cohort e análise de pareto. Isso permite que a Olist identifique tendências de vendas ao longo do tempo, avalie o impacto de iniciativas 
+								de marketing e identifique os clientes mais lucrativos.</li></br>
+
+						</ol>
+						
+						<img src="../images/powerbi-project/dash.gif" alt=""/></br>
+
+
+						</br>
+						<header class="major">
+							<h2>4. Insights</h2>
+						</header>
+
+
+						<header class="major">
+							<h2>5. Próximos Passos</h2>
+						</header>
 						
 					</body>
 
