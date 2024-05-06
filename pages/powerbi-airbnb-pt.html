@@ -37,14 +37,23 @@
 				<section>
 
 					<head>
-						<title>Dashboard Airbnb Nova Iorque PowerBI</title>
+						<title>Dashboard Airbnb Nova York PowerBI</title>
 					</head>
 
 					<body>
 
-						<h1>Dashboard do Projeto PowerBI</h1>
+						<h1>Análise das Hospedagens em Nova York</h1>
 						<iframe title="projeto_do_aluno_v2" width="100%" height="635" src="https://app.powerbi.com/view?r=eyJrIjoiOGZhNGM0ZDEtYzY5OC00YzA4LTkzM2MtNzRkOTFlM2FjZjQ2IiwidCI6ImRhNmQ0OWRhLTU1N2MtNDQxNy04YWVmLTg4ZTA1MDcxOTE0MyJ9" frameborder="0" allowFullScreen="true"></iframe>
 						<br />
+						<hr class="major" />
+
+						<p>Link para o Painel Online: <a
+								href="https://app.powerbi.com/view?r=eyJrIjoiOGZhNGM0ZDEtYzY5OC00YzA4LTkzM2MtNzRkOTFlM2FjZjQ2IiwidCI6ImRhNmQ0OWRhLTU1N2MtNDQxNy04YWVmLTg4ZTA1MDcxOTE0MyJ9"
+								target="_blank">Visão Geral</a></p>
+
+						<img src="../images/airbnb-dashboard/airbnb-banner.png" alt="" title="banner" width="100%" height="250">
+
+
 						<hr class="major" />
 
 
@@ -52,9 +61,77 @@
 							<h2>1. Visão Geral</h2>
 						</header>
 
-						<p>Link para o Painel Online: <a
-								href="https://app.powerbi.com/view?r=eyJrIjoiOGZhNGM0ZDEtYzY5OC00YzA4LTkzM2MtNzRkOTFlM2FjZjQ2IiwidCI6ImRhNmQ0OWRhLTU1N2MtNDQxNy04YWVmLTg4ZTA1MDcxOTE0MyJ9"
-								target="_blank">Visão Geral</a></p>
+						<p>O relatório desenvolvido nesse projeto examina o mercado de acomodações disponíveis na cidade de Nova York, utilizando dados do Airbnb 
+							fornecidos via Kaggle. O objetivo principal é identificar tendências e padrões nas características das propriedades listadas, como tipo 
+							de acomodação, localização, preço médio e avaliações dos usuários. A partir dessas informações, foram desenvolvidos dashboards no Power BI 
+							que oferecem insights valiosos para a tomada de decisões estratégicas, como ajustes de preços, melhorias na qualidade dos serviços e 
+							identificação de oportunidades de mercado.</p>
+
+
+						<header class="major">
+							<h2>2. Problema de Negócio</h2>
+						</header>
+
+						<p>A Airbnb atua em um mercado dinâmico e altamente competitivo, que possui uma ampla variedade de acomodações com características distintas e 
+							uma demanda que está constantemente em evolução por parte dos viajantes. A falta de insights precisos sobre a situação do mercado dificulta 
+							a tomada de decisões estratégicas, como ajustes de preços, otimização de serviços e identificação de oportunidades de mercado.</p>
+							
+
+						
+						<header class="major">
+							<h2>3. Solução</h2>
+						</header>
+
+						<p>O relatório desenvolvido nesse projeto usando a ferramenta Power BI oferece uma solução para esse problema ao fornecer uma visão abrangente 
+							e detalhada do mercado de acomodações em Nova York. Ele possui duas principais visões:</p>
+						
+						<ol>
+							<li><strong>Métricas Gerais</strong>: nessa página temos uma visão geral sobre o panorama do imóveis na cidade de Nova York. Aqui podemos 
+								verificar, dados sobre o número de reviews e o preço médio por bairro e distritos, além de outras informações.</li></br>
+
+							<li><strong>Evolução de Métricas</strong>: nessa página conseguimos verificar a variação de métricas conforme o tempo e também a localização 
+								geográfica dos imóveis.</li></br>
+
+						</ol>
+
+						<em>
+							<p><strong>Atenção</strong>: nessa análise assumimos as seguintes hipóteses:</p>
+							<ul>
+								<li>A data de primeiro review de uma acomodação corresponde a data de inscrição do imóvel no airbnb pelo proprietário.</li>
+								<li>Todos os clientes fizeram uma avaliação sendo a data de avaliação correspondente a data de check-in (reviews = reservas).</li>
+							</ul></br>
+						</em>
+						
+						<a href="https://app.powerbi.com/view?r=eyJrIjoiOGZhNGM0ZDEtYzY5OC00YzA4LTkzM2MtNzRkOTFlM2FjZjQ2IiwidCI6ImRhNmQ0OWRhLTU1N2MtNDQxNy04YWVmLTg4ZTA1MDcxOTE0MyJ9">
+							<img src="../images/airbnb-dashboard/dash.gif" alt=""/>
+						</a></br>
+
+
+						</br>
+						<header class="major">
+							<h2>4. Insights</h2>
+						</header>
+						
+						<p>Nesse relatório foi possível identificar os seguintes insights:</p>
+
+						<ol>
+							<li>A maior quantidade de reserva ocorrem no verão do hemisfério norte, no período de férias escolares durante os meses de Junho e Julho.</li></br>
+							<li>O distrito de Manhattan é o mais caro para os 3 tipos de acomodações.</li></br>
+							<li>Quartos compartilhados recebem média menos reviews.</li>
+						</ol>
+						
+
+						<header class="major">
+							<h2>5. Próximos Passos</h2>
+						</header>
+						
+						<p>Possíveis aprimoramentos para o relatório do Power BI incluem:</p>
+
+						<ol>
+							<li>Integração com fontes de dados em tempo real para insights atualizados.</li></br>
+							<li>Derivar novas features para tornar a análise mais precisa.</li>
+						</ol>
+
 						
 					</body>
 
